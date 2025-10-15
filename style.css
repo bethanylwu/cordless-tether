@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(245, 241, 241);
+    background-color: rgb(199, 198, 192);
     font-family: "IBM Plex Sans", "Helvetica", "Arial", sans-serif;
     font-size: 14px;
 }
@@ -64,7 +64,7 @@ img.foundation {
     height: 2.25vh;
     border-radius: 120% / 100%;
     /* oval/pill shape */
-    border: 2px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.05);
     /* visible outline at rest */
     background-color: transparent;
     /* override global background, no visible fill at rest */
@@ -74,7 +74,7 @@ img.foundation {
 
 .play-btn:hover,
 .play-btn:focus-visible {
-    border-color: rgba(0, 0, 0, 0.15);
+    border-color: rgba(0, 0, 0, 0.3);
     /* faint outline on hover/focus */
     outline: none;
 }
@@ -84,8 +84,8 @@ img.foundation {
 }
 
 .play-btn.is-playing {
-    background-color: rgba(0, 200, 100, 0.3);
+    background-color: rgba(35, 196, 115, 0.403);
     /* translucent green while playing */
-    border-color: rgba(0, 200, 100, 0.6);
+    /* border-color: rgba(0, 200, 100, 0.6); */
     /* slightly stronger green border */
 }
