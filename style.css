@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 100 700;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ibmplexsans/v21/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxeKYbSB4Zh.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+22z, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(245, 241, 241);
+    font-family: "IBM Plex Sans", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* vertical */
+    justify-content: center;
+    /* horizontal */
+}
+
+a {
+    text-decoration: none;
+    color: rgb(110, 108, 108);
+}
+
+/* Image container with relative positioning for buttons */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+img.foundation {
+    height: 75vh;
+    width: auto;
+    display: block;
+    opacity: .75;
+}
+
+/* Button grid container positioned relative to image */
+.button-grid {
+    position: absolute;
+    bottom: 19.15%;
+    left: 7%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-color: transparent;
+    /* gap: 1.5vh; */
+    width: 11.95vh;
+    height: 12.25vh;
+}
+
+/* Play button styles */
+.play-btn {
+    width: 3vh;
+    height: 2.25vh;
+    border-radius: 120% / 100%;
+    /* oval/pill shape */
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    /* visible outline at rest */
+    background-color: transparent;
+    /* override global background, no visible fill at rest */
+    cursor: pointer;
+    transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.play-btn:hover,
+.play-btn:focus-visible {
+    border-color: rgba(0, 0, 0, 0.15);
+    /* faint outline on hover/focus */
+    outline: none;
+}
+
+.play-btn:active {
+    transform: scale(0.98);
+}
+
+.play-btn.is-playing {
+    background-color: rgba(0, 200, 100, 0.3);
+    /* translucent green while playing */
+    border-color: rgba(0, 200, 100, 0.6);
+    /* slightly stronger green border */
+}
