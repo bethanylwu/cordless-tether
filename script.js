@@ -6,17 +6,17 @@
     // Button IDs and their corresponding audio files (temporarily all use the same file)
     const buttonConfigs = [
         { id: 'btn-one', audioSrc: 'media/1_ConfirmingDate.mp3' },
-        { id: 'btn-two', audioSrc: 'media/1_ConfirmingDate.mp3' },
-        { id: 'btn-three', audioSrc: 'media/1_ConfirmingDate.mp3' },
-        { id: 'btn-four', audioSrc: 'media/1_ConfirmingDate.mp3' },
-        { id: 'btn-five', audioSrc: 'media/1_ConfirmingDate.mp3' },
-        { id: 'btn-six', audioSrc: 'media/1_ConfirmingDate.mp3' },
-        { id: 'btn-seven', audioSrc: 'media/1_ConfirmingDate.mp3' },
-        { id: 'btn-eight', audioSrc: 'media/1_ConfirmingDate.mp3' },
-        { id: 'btn-nine', audioSrc: 'media/1_ConfirmingDate.mp3' },
-        { id: 'btn-ten', audioSrc: 'media/1_ConfirmingDate.mp3' },
-        { id: 'btn-eleven', audioSrc: 'media/1_ConfirmingDate.mp3' },
-        { id: 'btn-twelve', audioSrc: 'media/1_ConfirmingDate.mp3' }
+        { id: 'btn-two', audioSrc: 'media/2_whyTaiwan.mp3' },
+        { id: 'btn-three', audioSrc: 'media/3_decisionMaking.mp3' },
+        { id: 'btn-four', audioSrc: 'media/4_announcingTheMove.mp3' },
+        { id: 'btn-five', audioSrc: 'media/5_peopleAtSFO.mp3' },
+        { id: 'btn-six', audioSrc: 'media/6_firstDays.mp3' },
+        { id: 'btn-seven', audioSrc: 'media/7_phoneCalls.mp3' },
+        // { id: 'btn-eight', audioSrc: 'media/1_ConfirmingDate.mp3' },
+        // { id: 'btn-nine', audioSrc: 'media/1_ConfirmingDate.mp3' },
+        // { id: 'btn-ten', audioSrc: 'media/1_ConfirmingDate.mp3' },
+        // { id: 'btn-eleven', audioSrc: 'media/1_ConfirmingDate.mp3' },
+        // { id: 'btn-twelve', audioSrc: 'media/1_ConfirmingDate.mp3' }
     ];
 
     // Global state to track which button is currently playing

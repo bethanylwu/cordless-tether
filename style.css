@@ -54,13 +54,13 @@ img.foundation {
     grid-template-rows: repeat(4, 1fr);
     background-color: transparent;
     /* gap: 1.5vh; */
-    width: 11.95vh;
+    width: 11.85vh;
     height: 12.25vh;
 }
 
 /* Play button styles */
 .play-btn {
-    width: 3vh;
+    width: 2.95vh;
     height: 2.25vh;
     border-radius: 120% / 100%;
     /* oval/pill shape */
