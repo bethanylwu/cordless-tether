@@ -7,7 +7,7 @@
     const buttonConfigs = [
         { id: 'btn-one', audioSrc: 'media/1_ConfirmingDate.mp3' },
         { id: 'btn-two', audioSrc: 'media/2_whyTaiwan.mp3' },
-        { id: 'btn-three', audioSrc: 'media/3_decisionMaking.mp3' },
+        { id: 'btn-three', audioSrc: 'media/3_decisionMakingProcess.mp3' },
         { id: 'btn-four', audioSrc: 'media/4_announcingTheMove.mp3' },
         { id: 'btn-five', audioSrc: 'media/5_peopleAtSFO.mp3' },
         { id: 'btn-six', audioSrc: 'media/6_firstDays.mp3' },
